@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :match_histories, only: :index
+  get 'match_histories/show_raw_file'
+  root 'match_histories#index'
 end
