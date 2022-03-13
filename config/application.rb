@@ -11,6 +11,7 @@ Bundler.require(*Rails.groups)
 module FootballTest
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.autoload_paths << Rails.root.join('app/presenters')
     config.load_defaults 5.2
 
     # Settings in config/environments/* take precedence over those specified here.
