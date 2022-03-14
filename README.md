@@ -40,6 +40,7 @@ Rspec Test:
 ```
   $ rspec
 ```
+```
 
 #### Running Rubocop
 
@@ -47,5 +48,6 @@ Running Rubocop:
 
 ```
   $ rubocop
+```
 ```
 Note: On localhost:3000 you can see both raw data and html view for the side
