@@ -1,26 +1,35 @@
-# README
+## Footbool Scorecard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+#### Requirements
 
-* Ruby version
+- ruby
+- postgres
+- redis
+- yarn
 
-* System dependencies
+#### Installation
 
-* Configuration
+```
+  $ bundle
+  $ yarn install
+  $ rails db:create db:migrate db:seed
+```
 
-* Database creation
+#### Run rake task to import data from file
 
-* Database initialization
+```
+  $ rake match_history_import:load_data
+```
 
-* How to run the test suite
+#### Running locally
 
-* Services (job queues, cache servers, search engines, etc.)
-run Below command After Local DB setup
-rake match_history_import:load_data
+Rails server:
 
-* Deployment instructions
+```
+  $ rails s 
+```
 
-* ...
+Visit http://localhost:3000
+```
+Note: On localhost:3000 you can see both raw data and html view for the side
