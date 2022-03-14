@@ -32,4 +32,20 @@ Rails server:
 
 Visit http://localhost:3000
 ```
+
+#### Running Test cases
+
+Rspec Test:
+
+```
+  $ rspec
+```
+
+#### Running Rubocop
+
+Running Rubocop:
+
+```
+  $ rubocop
+```
 Note: On localhost:3000 you can see both raw data and html view for the side
