@@ -5,7 +5,7 @@
 
 - ruby
 - postgres
-- redis
+- rails
 - yarn
 
 #### Installation
